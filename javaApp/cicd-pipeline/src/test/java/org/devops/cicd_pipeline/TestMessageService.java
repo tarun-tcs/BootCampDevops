@@ -19,4 +19,24 @@ public class TestMessageService {
 		Assertions.assertEquals(ms.sayHello(), "hello");
 	}
 	
+	public void testThanks() {
+		MessageService ms = new MessageService();
+		Assertions.assertEquals(ms.sayThanks(), "thanks");
+	}
+	
+	public void testTry() {
+		MessageService ms = new MessageService();
+		Assertions.assertEquals(ms.sayTry(), "try");
+	}
+	
+	public void testRes() {
+		MessageService ms = new MessageService();
+		Assertions.assertEquals(ms.sayRes(), "res");
+	}
+	
+	public void testReq() {
+		MessageService ms = new MessageService();
+		Assertions.assertEquals(ms.sayReq(), "req");
+	}
+	
 }
