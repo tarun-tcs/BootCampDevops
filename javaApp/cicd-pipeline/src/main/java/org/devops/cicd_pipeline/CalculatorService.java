@@ -32,7 +32,7 @@ public class CalculatorService {
 	
 	@GetMapping("/per")
 	public int per() {
-		int a=100,b=5;
-		return (a/b)*100;
+		int a=5,b=100;
+		return a*100/b;
 	}
 }
